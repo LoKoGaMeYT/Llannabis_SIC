@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100&family=Lato:wght@700&family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Be+Vietnam+Pro:ital,wght@1,100&family=Lato:wght@700&display=swap');
+
+
+
+/*etiquetas*/
+*{
+	margin: 0;
+}
+
+header{
+	display: flex;
+	background: #95d5b2;
+	justify-content: space-between; /*alineacion horizontal*/
+	align-items: center; /*alineacion vertical*/
+	padding: 5px 25px;
+	border-bottom: 4px solid #000;
+
+
+}
+
+header div a{
+	text-decoration: none;
+	justify-self: space-between;
+	padding: 0 7px;
+	text-decoration: none;
+	padding: 0 20px;
+	color: #000;
+	font-family: 'Merriweather', serif;
+	background: #fff;
+	border-radius: 5px;
+	font-size: 1.2vw;
+	width: 90%;
+
+}
+
+header div a:hover{
+	color: #fff;
+	background: #52b788;
+	
+
+}
+
+
+
+/*clases*/
+
+.logoSistema img {
+	width: 30%;
+}
+
+.infoUsuario{
+	text-align: center;
+	color: #fff;
+	padding: 25px 0;
+	border-bottom: 1px solid white;
+}
+
+.infoUsuario i{
+	font-size: 350%;
+}
+
+/*barra de navegacion*/
+
+main{
+	display: flex;
+
+
+}
+
+nav{
+	background: #495057;
+	font-family: 'Raleway', sans-serif;
+	border-right: 1px solid #fff;
+	padding-bottom: 250px;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li a {
+	text-decoration: none;
+	padding: 5px 25px; 
+	display: block;
+	color: #fff;
+	
+}
+
+nav ul li a:hover{
+	background: #e9ecef;
+	color: #43aa8b;
+}
+
+nav h3{
+	padding: 20px 25px;
+	color: #43aa8b;
+}
+
+/*estilos pagina principal admin*/
+
+
+section{
+	background: #495057;
+	width: 100%;
+}
+.contPrincipal{
+	display: flex;
+	margin: 30px auto;
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.col{
+	display: flex;
+	background: #fff;
+	margin: 10px 30px;
+	padding: 20px;
+	border-radius: 8px;
+	align-items: center;
+}
+
+.img i{
+	font-size: 60px;
+
+}
+
+.colorA{
+	color: #ddb892;
+}
+
+.colorB{
+	color: #43aa8b;
+}
+
+.colorC{
+	color: #1e6091;
+}
+
+.borderA{
+	border-bottom: 3px solid #ddb892;
+}
+
+.borderB{
+	border-bottom: 3px solid #43aa8b;
+}
+
+.borderC{
+	border-bottom: 3px solid #1e6091;
+}
+
+.text h3{
+	padding-bottom: 15px;
+}
+
+iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.cerrar{
+	padding: 0 30px;
+	width: 10%;
+}
+
+/*Estilos footer*/
+
+footer{
+	background: #95d5b2;
+	display: flex;
+	padding: 0;
+	border-top: 4px solid #000;
+
+}
+
+
+
+footer div p{
+	font-size: 1vw;
+
+}
+
+footer h2{
+	background: #000;
+}
+ address{
+ 	padding: 25px;
+
+ }
+
+ address p{
+ 	font-size: 1.5vw;
+ }
+  address a{
+	font-size: 1.5vw;
+	padding-right: 0;
+}
+
+
+footer{
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+footer img{
+	padding: 0 0 0 150px;
+	width: 37.5%;
+
+}
+.coluFooter{
+	width: 50%;
+	text-align: center;
+
+}
+
+.logoFooter img{
+	width: 30%;
+	text-emphasis: center;
+	padding: 50px 0 0 450px;
+}
+
+.infoa{
+	
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.infob{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.infoc{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.infod{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.roles{
+	width: 70%;
+}

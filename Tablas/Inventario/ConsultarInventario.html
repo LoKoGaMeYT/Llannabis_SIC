@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/styleConsu_Pedidos.css">
+  <link rel="stylesheet" href="../../css/all.min.css">
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../datatables/datatables.min.css">
+  <link rel="stylesheet" href="../../datatables/DataTables-1.11.5/css/dataTables.bootstrap4.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link href="../../css/font-awesome.min.css" rel="stylesheet">
+  <link href="../../css/datepicker3.css" rel="stylesheet">
+  <link href="../../css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="">
+
+  <!--Custom Font-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <title>Consultar Inventario</title>
+</head>
+<body>
+<!-- Menu superior ------------------------------------------------------------------->
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span></button>
+        <a class="navbar-brand" href="#"><span>Llannabis</span>S.I.C</a>
+        
+
+        <!-- Botones derecha --------------------------------------------------------->
+
+        <ul class="navbar-right">
+                  
+          <a class="dropdown"  href="../../index.html"> <em class="fa fa-home fa-lg"></em>
+                </a>
+                          
+                <a class="dropdown"  href="../../Usuarios/login.html"><em class="fa fa-power-off fa-lg"></em>
+                </a> 
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- menu izquierda ----------------------------------------------------------------------------->
+
+  <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+    <div class="profile-sidebar">
+      <div class="profile-userpic">
+        <img src="../../img/icon usuario.png" class="img-responsive" alt="">
+      </div>
+
+<!-- Usuario activo en el dash ------------------------------------------------------->
+      <div class="profile-usertitle">
+        <div class="profile-usertitle-name">Juan Gonzales</div>
+        <div class="profile-usertitle-status"><span class="indicator label-success"></span>Administrador</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+<!-- Botones del dashboard --------------------------------------------------------------->
+
+    <div class="divider"></div>
+    <ul class="nav menu">
+      <li><a href="../../indexadmin.html"><em class="fa fa-bar-chart">&nbsp;</em> Info. General</a></li>
+      <h3>Pedidos Y Ventas</h3>
+      <li><a href="../Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar stock</a></li>
+      <li><a href="../Pedidos_Ventas/ConsultarPedidos.html"><em class="fa fa-search">&nbsp;</em> Consultar pedidos</a></li>
+      <li><a href="../../Pedidos_ventas/registrar_venta.html"><em class="fa fa-indent">&nbsp;</em> Registrar venta</a></li>
+      <li><a href="../Pedidos_Ventas/ConsultarVentas.html"><em class="fa fa-search">&nbsp;</em> Consultar ventas</a></li>
+      <li><a href="../Pedidos_Ventas/ListaEspera.html"><em class="fa fa-pause">&nbsp;</em> Lista de espera</a></li>
+
+      <h3>Inventario</h3>
+      <li><a href="../../inventario/CrearProducto.html"><em class="fa fa-plus-square">&nbsp;</em> Crear producto</a></li>
+      <li><a href="../../inventario/CrearInsumo.html"><em class="fa fa-plus-square">&nbsp;</em> Crear insumos</a></li>
+      <li><a href="ConsultarInventario.html"><em class="fa fa-search">&nbsp;</em> Consultar inventario</a></li>
+      <li><a href="../../inventario/Entradas.html"><em class="fa fa-sign-in">&nbsp;</em> Registrar entradas</a></li>
+      <li><a href="../../inventario/Salidas.html"><em class="fa fa-sign-out">&nbsp;</em> Registrar salidas</a></li>
+
+      <h3>Producción</h3>
+      <li><a href="../Produccion/ConsultarInsu.html"><em class="fa fa-search">&nbsp;</em> Consultar insumos</a></li>
+      <li><a href="../../Produccion/CrearPlanta.html"><em class="fa fa-plus-square">&nbsp;</em> Crear planta</a></li>
+      <li><a href="../Produccion/ConsultarPlantas.html"><em class="fa fa-search">&nbsp;</em> Consultar plantas</a></li>
+      <li><a href="../Produccion/ConsultarProductos.html"><em class="fa fa-search">&nbsp;</em> Consultar productos</a></li>
+      <li><a href="../../Produccion/RegistrarNovedades.html"><em class="fa fa-indent">&nbsp;</em> Registrar novedades</a></li>
+      <li><a href="../Produccion/ConsultarNove.html"><em class="fa fa-search">&nbsp;</em> Consultar novedades</a></li>
+
+      <h3>Atencion al cliente</h3>
+      <li><a href="../Atencion_Cliente/RevisarPQRSAdmin.html"><em class="fa fa-search">&nbsp;</em> Revisar PQRS</a></li>
+      <li><a href="../Atencion_Cliente/ConsultarCaliAdmin.html"><em class="fa fa-search">&nbsp;</em> Consultar calificaciones</a></li>
+
+      
+    </ul>
+  </div>
+
+
+
+
+<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"></h1>
+      </div>
+    </div>
+  <div class="container">
+
+  <!-- INFOMRACION DE LAS TABLAS  despues del h2 poner todo lo que esta dentro de la etiqueta <table>-------------------->
+    <h2>Inventario</h2>
+    </head>
+<body>
+  <div class="container">
+<table id="example" class="table table-striped table-bordered" style="width:100%;">
+  <thead>
+    <tr>
+    <th>Tipo</th>
+    <th>Nombre</th>
+    <th>ID</th>
+    <th>Cantidad</th>
+    <th>  </th>
+    <th>  </th>
+       </thead>
+<tbody>
+  </tr>
+  <tr class="Fila1">
+    <td>Producto</td>
+    <td>Semillas</td>
+    <td>S1542</td>
+    <td>458</td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearProducto.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a>
+    </td>
+    
+   </tr>
+  <tr class="Fila2">
+    <td>Insumo</td>
+    <td>Bolsa 10kg</td>
+    <td>P2542</td>
+    <td>150</td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearInsumo.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a></td>
+  </tr>
+  <tr class="Fila1">
+    <td>Insumo</td>
+    <td>Fertilizante</td>
+    <td>D2742</td>
+    <td>12</td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearInsumo.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a></td>
+  </tr>
+  <tr class="Fila2">
+    <td>Producto</td>
+    <td>Planta</td>
+    <td>F4542</td>
+    <td>785 </td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearProducto.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a></td>
+  </tr>
+  <tr class="Fila1">
+    <td>Producto</td>
+    <td>Planta PQ</td>
+    <td>J4542</td>
+    <td>42</td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearProducto.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a></td>
+  </tr>
+  <tr class="Fila2">
+    <td>Producto</td>
+    <td>Bolsas Cannabis</td>
+    <td>K7542</td>
+    <td>755</td>
+    <td class="Botones">
+    <a href="../../Inventario/CrearProducto.html"><i class="far fa-edit"></i></a></td>
+    <td class="Botones">
+    <a href="../../dashboard/Error_500Dash.html"><i class="fas fa-trash-alt"></i></i></a></td>
+  </tr>
+
+
+ 
+    
+   
+  </tbody>
+  </table>
+  </div>
+  </div>
+
+  </div><!--/.row-->
+
+  <script src="../../js/jQuery.js"></script>
+  
+  <script src="../../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../../datatables/datatables.js"></script>
+  <script src="../../datatables/Buttons-2.2.2/js/dataTables.buttons.min.js"></script>
+  <script src="../../datatables/JSZip-2.5.0/jszip.min.js"></script>
+  <script src="../../datatables/pdfmake-0.1.36/pdfmake.min.js"></script>
+   <script src="../../datatables/pdfmake-0.1.36/vfs_fonts.js"></script>
+    <script src="../../datatables/Buttons-2.2.2/js/buttons.html5.min.js"></script>
+    <script type="text/javascript" src="../../js/botones_tablas.js"></script>
+
+</body>
+</html>

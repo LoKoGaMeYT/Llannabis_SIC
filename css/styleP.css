@@ -1,0 +1,374 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
+
+
+
+/*etiquetas*/
+
+*{
+	margin: 0;
+}
+
+header{
+	background: #95d5b2;
+	display: flex;
+	align-items: center;
+	border-bottom: 4px solid #000;
+	position: fixed;
+	width: 100%;
+	font-size: 1.2vw;
+	
+
+}
+
+main{
+	display: flex;
+}
+
+main h1 {
+	padding: 460px 150px 0px 100px;
+	font-size: 4.5vw;
+	width:100% ;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+main p{
+	padding: 0px 100px 250px 0px;
+	font-size: 1.5vw;
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+main img{
+
+	padding: 230px 20px 92px 200px;
+	width: 70%;
+	
+}
+
+div h2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background: #ced4da;
+	width: 100%;
+	padding: 20px 0;
+	font-size: 2.5vw;
+	border-bottom: 4px solid #000;
+	border-top: 4px solid #000;
+}
+
+article img{
+	padding: 30px 75px 0 120px;
+	width: 28%;
+
+}
+
+body h5{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background: #ced4da;
+	width: 100%;
+	padding: 20px 0;
+	font-size: 2.5vw;
+	border-bottom: 4px solid #000;
+	border-top: 4px solid #000;
+}
+
+body p{
+	text-align: center;
+	padding: 20px 0;
+	font-size: 1.7vw;
+
+}
+
+aside{
+	display: flex;
+	background-image: url(../img/fondo_1.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	font-size: 2.7vw;
+}
+
+body div p{
+	padding: 0 15% 0 15%;
+}
+
+
+
+form {
+	background: #95d5b2;
+	padding: 50px;
+	text-align: left;
+	width: 80%;
+	border-radius: 8%;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+form h1 {
+	text-align: center;
+	padding: 35px;
+}
+
+footer{
+	background: #95d5b2;
+	display: flex;
+	padding: 0;
+	border-top: 4px solid #000;
+
+}
+
+
+
+footer div p{
+	font-size: 1vw;
+
+}
+
+footer h2{
+	background: #000;
+}
+ address{
+ 	padding: 25px;
+
+ }
+
+ address p{
+ 	font-size: 1.5vw;
+ }
+  address a{
+	font-size: 1.5vw;
+	padding-right: 0;
+}
+
+
+footer{
+	padding-left: 10px;
+	padding-right: 0;
+}
+
+footer img{
+	padding: 0 0 0 150px;
+	width: 37.5%;
+
+}
+
+label {
+	padding: 5px 5px 0 350px;
+}
+
+
+
+
+
+
+
+
+/*clases*/
+
+
+
+.navegacion{
+	text-align: right;
+	width: 70%;
+}
+
+.navegacion a{
+	text-decoration: none;
+	padding: 0 20px;
+	color: #000;
+	font-family: 'Merriweather', serif;
+	background: #fff;
+
+}
+
+.navegacion a:hover{
+	color: #fff;
+	background: #52b788;
+}
+
+
+.navegacion2{
+	text-align: right;
+	width: 70%;
+	padding: 20px;
+	text-decoration: none;
+
+}
+
+.navegacion2 a{
+	text-decoration: none;
+	padding: 0 20px;
+	color: #000;
+	font-family: 'Merriweather', serif;
+}
+
+.navegacion2 a:hover{
+	color: #fff;
+}
+
+.titulo{
+	text-align: left;
+	
+}
+.titulo p {
+	text-align: left;
+}
+
+.boton1{
+	border-radius: 10px;
+	padding: 0 20px;
+
+}
+
+.colum{
+	display: flex;
+	width: 100%;	
+	padding: 30px 120px 0 40px;
+	font-size: 2vw;
+}
+
+
+.colum p{
+	text-align: center;
+	width: 35%;	
+	padding: 180px 80px 0 60px;
+	font-size: 2vw;
+	
+}
+
+.colum2{
+	display: flex;
+	text-align: center;
+	width: 100%;	
+	padding: 100px 60px;
+	font-size: 2vw;
+
+	
+}
+
+.colum2 p{
+	text-align: center;
+	width: 100%;	
+	padding: 110px 200px 0 60px;
+	font-size: 2vw;
+}
+
+.colum3{
+	display: flex;
+	text-align: center;
+	width: 100%;	
+	padding: 100px 60px;
+	font-size: 2vw;
+
+	
+}
+
+.colum3 p{
+	text-align: center;
+	width: 35%;	
+	padding:  110px 80px 0 60px;
+	font-size: 2vw;
+}
+
+.colum4{
+	text-align: center;
+	width: 50%;
+	padding: 50px;
+	border: 3px solid #1b3a4b;
+	border-radius: 5%;
+	margin: 50px 150px 50px 150px;
+	background: #fff;
+
+	
+}
+.colum4 img {
+	width: 70%;
+
+	
+}
+
+
+
+.logoFooter img{
+	width: 30%;
+	text-emphasis: center;
+	padding: 50px 0 0 450px;
+}
+
+
+
+.error404{
+	text-align: center;
+}
+
+.error404 h1 {
+	text-align: left;
+	font-size: 6vw;
+
+}
+
+.error404 p {
+	padding: 15px 105px;
+	text-align: left;
+	font-size: 2.5vw;
+}
+
+.error404 p1{
+	font-size: 1.5vw;
+	
+}
+
+.error404img {
+	width: 100%;
+}
+
+.error500{
+	text-align: center;
+}
+
+.error500 h1{
+	text-align: left;
+	font-size: 7vw;
+
+}
+
+.error500 p{
+	
+	padding: 15px 135px;
+	text-align: left;
+	font-size: 2.5vw;
+	
+}
+
+.error500img{
+	width: 50%;
+	padding: 0 80px 0 0px;
+	
+}
+
+
+.botones {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

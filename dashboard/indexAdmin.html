@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=s, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/LOGO PRINCIPAL_-SIN FONDO.png">
+	<link rel="stylesheet" href="css/styleDashAdmin.css">
+	<link rel="stylesheet" href="../css/all.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<title>Dashboard administrador</title>
+</head>
+<body>
+
+	<!-- enlazar la url que ba a cargar el iframe -->
+	<a href="principalAdmin.html" target="principal"></a>
+
+	<!-- Encabezado: logo/enlacens a otros roles/cierre/ -->
+
+	<header class="container-fluid">
+		<div class="logoSistema col-lg-3">
+			<img src="img/LOGO PRINCIPAL_-SIN FONDO.png" alt="">
+		</div>
+
+		<div class="cerrar col-lg-2 col-lg-offset-7">
+			<a href="indexAdmin.html"><i class="fas fa-home"></i></a>
+			<a href="../index.html"><i class="fas fa-sign-out-alt"></i> </a>
+		</div>
+	</header>
+	
+	
+
+
+	<!-- Contenido: barra de navegacion lateral izquierda/area de trabajo -->
+
+	<main class="container-xxl">
+		<nav class="col-lg-3">
+			<!-- barra de navegacio -->
+		<!-- Insertar roles -->
+
+		<div>
+			
+			<i class="fas fa-user-circle"></i>
+			<h4>Juan Gonzalez</h4>
+			<h5>Administrador</h5>
+
+			
+		</div>
+
+
+			<h3>Pedidos y Ventas</h3>
+			<ul>
+				<li><a href="../Tablas/Pedidos_Ventas/ConsultarStock.html" target="principal"><i class="fas fa-search"></i>Consultar stock del inventario</a></li>
+				<li><a href="../Tablas/Pedidos_Ventas/ConsultarPedidos.html" target="principal"> <i class="fas fa-search"></i> Consultar Pedidos</a></li>
+				<li><a href="../Pedidos_ventas/registrar_venta.html" target="principal"><i class="fas fa-cash-register"></i> Registrar venta</a></li>
+				<li><a href="../Tablas/Pedidos_Ventas/ConsultarVentas.html" target="principal"> <i class="fas fa-search"></i> Consultar Ventas</a></li>
+				<li><a href="../Tablas/Pedidos_Ventas/ListaEspera.html" target="principal"><i class="far fa-clock"></i> Lista de Espera</a></li>
+				
+			</ul>
+
+	            <h3>Inventario</h3>
+				<ul>
+					
+					<li><a href="../Inventario/CrearProducto.html" target="principal"><i class="fas fa-plus-square"></i> Crear productos</a></li>
+					<li><a href="../Inventario/CrearInsumo.html" target="principal"><i class="fas fa-plus-square"></i> Crear Insumos</a></li>
+					<li><a href="../Tablas/Inventario/ConsultarInventario.html" target="principal"><i class="fas fa-search"></i> Consultar inventario</a></li>
+					<li><a href="../Inventario/Entradas.html" target="principal"><i class="fas fa-dolly"></i> Registrar entradas</a></li>
+					<li><a href="../Inventario/Salidas.html" target="principal"><i class="fas fa-external-link-alt"></i> Registrar salidas</a></li>
+				</ul>
+
+				<h3>Produccion</h3>
+				<ul>
+					<li><a href="../Tablas/Produccion/ConsultarInsu.html" target="principal"><i class="fas fa-search"></i> Consultar insumos</a></li>
+					<li><a href="../Produccion/CrearPlanta.html" target="principal"><i class="fas fa-plus-square"></i> Crear Planta</a></li>
+					<li><a href="../Tablas/Produccion/ConsultarPlantas.html" target="principal"><i class="fas fa-search"></i> Consultar plantas</a></li>
+					<li><a href="../Tablas/Produccion/ConsultarProductos.html" target="principal"><i class="fas fa-search"></i>  Consultar Producto</a></li>
+					<li><a href="../Produccion/RegistrarNovedades.html" target="principal"><i class="fas fa-comment-medical"></i> Registrar novedades</a></li>
+					<li><a href="../Tablas/Produccion/ConsultarNove.html" target="principal"><i class="fas fa-search"></i> Consultar novedades</a></li>
+				</ul>
+
+				<h3>Atencion al cliente</h3>
+				<ul>
+					<li><a href="../Tablas/Atencion_Cliente/RevisarPQRSAdmin.html" target="principal"><i class="fas fa-search"></i> </i> Revisar PQRS</a></li>
+					<li><a href="../Tablas/Atencion_Cliente/ConsultarCaliAdmin.html" target="principal"><i class="fas fa-search"></i> Consultar Calificaciones</a></li>
+				</ul>
+
+				<h3>Reportes</h3>
+				<ul>
+					<li><a href="Error_500Dash.html" target="principal"><i class="fas fa-file-invoice"></i> Pedidos</a></li>
+					<li><a href="Error_500Dash.html" target="principal"><i class="fas fa-file-invoice"></i> Ventas</a></li>
+					<li><a href="Error_500Dash.html" target="principal"><i class="fas fa-file-invoice"></i> Inventarios</a></li>
+					<li><a href="Error_500Dash.html" target="principal"><i class="fas fa-file-invoice"></i> Produccion</a></li>
+					<li><a href="Error_500Dash.html" target="principal"><i class="fas fa-file-invoice"></i> Atencion al Cliente</a></li>
+				</ul>
+			
+		</nav>
+
+		<!-- area de trabajo -->
+
+		<section class="col-lg-9">
+			<iframe name="principal" src="principalAdmin.html" frameborder="0"></iframe> <!-- marco de trabajo -->
+		</section>
+	</main>
+
+
+
+	<!-- Pie de pagina -->
+
+	<footer class="container">
+		
+
+		<address>
+  		<p>Fredy Barbosa<br>
+  		<a>fredybarbosa117@gmail.com <br>
+  		<a>3195559810</a></a></p>
+  		</address>
+  		<address>
+  		<p>Luis Rivas<br>
+  		<a>luislacrew@gmail.com<br>
+  		<a>3004491436</a></a></p>
+  		</address>
+  		<address>
+  		<p>Juan Gonzalez<br>
+  		<a>juaaanpaaablo3@gmail.com <br>
+  		<a>3124856630</a></a></p>
+  		</address>
+  		<address>
+  		<p>Miguel Peña<br>
+  		<a>miguelp8308@gmail.com <br>
+  		<a>3142993827</a></a></p>
+  		</address>
+  		<address>
+  		<img src="img/LOGO PRINCIPAL_-SIN FONDO.png" alt="">
+  		</address>
+
+	</footer>
+
+	<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

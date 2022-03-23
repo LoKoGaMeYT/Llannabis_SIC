@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100&family=Lato:wght@700&family=Raleway:wght@300&display=swap');
+
+
+/*Etiquetas*/
+form {
+	background: #95d5b2;
+	padding: 20px 0;
+	margin: auto;
+	margin-top: 100px;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 7px ;
+	
+}
+
+form h1 {
+	text-align: center;
+	padding: 75px 0 25px 0;
+
+	
+}
+
+label {
+	font-size: 1vw;
+	padding: 0 0 0 65px;
+
+}
+
+input{
+	font-size: 1vw;
+	padding: 17px;
+	width: 100%;
+	
+}
+
+
+
+/*Clases*/
+
+
+.boton {
+	text-align: left;
+	padding: 20px 25px 0 25px;
+	justify-content: space-between;
+}
+
+
+.botonS {
+	text-align: center;
+	padding: 80px 0 15px 0;
+	display: flex;
+	padding-left: 310px;
+}
+
+.botonS button:hover{
+	background: #d8f3dc;
+	color: #000;
+	border-radius: 5px;
+}
+
+.botonS button {
+	width: 40%;
+	padding: 15px;
+	background: #444444;
+	color: #fff;
+}
+
+.botonS4 {
+	text-align: center;
+	padding: 80px 0 15px 0;
+	display: flex;
+	padding-left: 350px;
+}
+
+.botonS4 button:hover{
+	background: #d8f3dc;
+	color: #000;
+	border-radius: 5px;
+}
+
+.botonS4 button {
+	width: 40%;
+	padding: 15px;
+	background: #444444;
+	color: #fff;
+}
+
+
+.boton select {
+	font-size: 1vw;
+	padding: 20px;
+	width: 100%;
+	
+}
+
+.botonDate {
+	text-align: left;
+	padding: 10px 0 0 90px;
+}
+
+.botong {
+	text-align: center;
+	padding: 20px 25px 0 25px;
+	justify-content: space-between;
+
+}
+
+.botong select {
+	font-size: 1vw;
+	padding: 20px;
+	width: 35%;
+	
+}
+
+.botong input{
+	width: 50%;
+}
+
+.botonDateg {
+	text-align: center;
+	padding: 10px 0 0 90px;
+}
+
+.botonD1 input {
+	
+	width: 80%;
+	margin: auto;
+}
+
+.botonD1{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+.botonVT input{
+	width: 80%;
+	margin: auto;
+}
+
+.botonVT{
+	padding-top: 25px;
+	padding-left: 25px;
+}
+
+
+
+.crearP select{
+	width: 100%;
+
+}
+
+.botonRV{
+	padding-top: 25px;
+	padding-left: 270px;
+}
+
+.botonRV select{
+	width: 40%;
+	padding: 20px 30px;
+}
+
+
+
+
+
+
+
+
+
+

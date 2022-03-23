@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/fondo_registro.jpg);
+}
+
+.Registrarse{
+  width: 400px;
+  background: #adb5bd;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: #fff;
+}
+
+.Registrarse h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #52b788 ;
+}
+
+.Espacios {
+  width: 100%;
+  background: #dee2e6;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #52b788;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #000;
+}
+
+.Registrarse p {
+  text-align: center;
+  font-size: 18px;
+}
+
+.Registrarse a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.botons {
+  width: 100%;
+  background: #52b788;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.Espacios1 {
+  width: 100%;
+  background: #52b788;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #52b788;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: #fff;
+
+
+}
+
+.Espacios1:hover {
+  Color: #52b788;
+  background: #fff;
+}

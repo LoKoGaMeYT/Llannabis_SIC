@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+}
+/*Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100&family=Lato:wght@700&family=Raleway:wght@300&display=swap');
+
+
+/*Etiquetas*/
+form {
+	background: #95d5b2;
+	padding: 20px 0;
+	margin: auto;
+	margin-top: 100px;
+	width: 80%;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 7px;
+}
+
+form h1 {
+	text-align: center;
+	padding: 75px 0 25px 0;
+
+	
+}
+
+label {
+	font-size: 1vw;
+	padding: 0 0 0 65px;
+
+}
+
+input {
+	font-size: 1vw;
+	padding: 17px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+
+footer{
+	background: #95d5b2;
+	display: flex;
+	padding: 0;
+	justify-self: space-around;
+	text-align: center;
+	border-top: 4px solid #000;
+}
+
+
+footer div h3{
+	text-align: center;
+
+}
+
+footer div p{
+	font-size: 1vw;
+
+}
+
+
+
+/*Clases*/
+
+
+.boton {
+	text-align: left;
+	padding: 20px 25px 0 25px;
+	justify-content: space-between;
+}
+
+
+
+
+.botonS {
+	text-align: center;
+	padding: 80px 0 15px 0;
+	display: flex;
+	padding-left: 310px;
+}
+
+.botonS button:hover{
+	background: #d8f3dc;
+	color: #000;
+	border-radius: 5px;
+}
+
+.botonS button {
+	width: 40%;
+	padding: 15px;
+	background: #444444;
+	color: #fff;
+}
+
+.boton select {
+	font-size: 1vw;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	
+}
+
+.botonDate {
+	text-align: left;
+	padding: 10px 0 0 65px;
+}
+
+.botonDate2 {
+	text-align: left;
+	padding: 10px 0 0 87px;
+}
+
+.botonDate3 {
+	text-align: left;
+	padding: 10px 0 0 87px;
+
+}
+
+.botong {
+	text-align: left;
+	padding: 20px 150px 20px 150px;
+	justify-content: space-between;
+	display: flex;
+
+}
+
+
+
+.botong select {
+	font-size: 1vw;
+	padding: 20px;
+	width: 100%;
+
+	
+}
+
+
+.botonDateg {
+	text-align: center;
+	padding: 10px 0 0 90px;
+}
+
+
+.coluFooter{
+	width: 50%;
+	text-align: center;
+
+}
+
+.logoFooter img{
+	width: 30%;
+	text-emphasis: center;
+	padding: 50px 0 0 450px;
+}
+
+.infoa{
+	
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.infob{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.infoc{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.infod{
+	justify-content: center;
+	width: 50%;
+	padding: 10px 95px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.botonPQ {
+	text-align: left;
+	padding: 30px 25px 0 25px;
+	justify-content: space-between;
+
+}
+
+.botonPQ textarea {
+	text-align: center;
+	width: 100%;
+
+
+
+}
+
+.botonDR {
+	text-align: left;
+	padding: 30px 25px 0 25px;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.botonCom {
+	text-align: left;
+	padding: 30px 25px 0 25px;
+	justify-content: space-between;
+
+}
+
+.botonCom textarea {
+	text-align: left;
+	width: 100%;
+}
+
+.botonCal select {
+	width: 100%;
+    text-align: left;
+	padding: 20px 0;
+	justify-content: space-between;
+
+}
+
+.botonCal {
+	text-align: left;
+	padding: 20px 25px 0 25px;
+	justify-content: space-between;
+}
+
+.mensajeCal h1{
+	background: #95d5b2;
+	
+	padding: 15px 0;
+
+	
+}
+
+.mensajeCal {
+	padding-right: 250px;
+	padding-left: 250px;
+	padding-top: 250px;
+	text-align: center;
+	font-size: 2.2vw;
+	font-family: 'Raleway', sans-serif;
+}
+
+.mensajeCal img {
+	width: 50%;
+	background: #95d5b2;
+	padding: 0 259px;
+
+}
+
+.botonCa {
+	padding-right: 20px;
+	margin-top: 17px;
+	margin-left: 20px;
+	
+}
+
+.botonCa a {
+	text-decoration: none;
+	color: #000;
+	background: #dddd;
+	padding: 17px 35px;
+	border: 1px solid #000;
+	border-radius: 5px;
+
+
+}
+
+.botonCa a:hover{
+	background: #495057;
+	color: #fff;
+	border-radius: 5px;
+}
+
+
+

@@ -1,0 +1,104 @@
+/*Fuentes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@1,100&family=Lato:wght@700&family=Raleway:wght@300&display=swap');
+
+/*Etiquetas*/
+table {
+  border-collapse: collapse;
+  width: 88%;
+  margin: auto;
+
+}
+
+td{
+
+  border: 1px solid #dddddd;
+  text-align: left;
+  color: #000;
+  padding: 8px;
+
+}
+
+th{
+  font-family: 'Raleway', sans-serif;
+
+    border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  color: #43aa8b;
+  font-size:1.6vw ;
+  
+}
+
+
+tr:nth-child(even) {
+  background-color: #95d5b2;
+}
+
+h2{
+  color: #fff;
+  font-size: 3.2vw;
+  padding:100px 0 40px 0;
+  text-align: center;
+  
+}
+
+
+
+/*Clases*/
+
+.Fila1{
+  color: #000;
+}
+
+.Fila2{
+  color: #fff;
+}
+
+.Botones{
+  background: #fff;
+  border: none;
+  color: #fff;
+  width: 1%;
+
+
+}
+
+.Botones a{
+  color: #000;
+  border:  none;
+}
+
+.anadir a{
+  text-decoration: none;
+  color: #fff;
+  
+
+}
+
+.anadir{
+  background: #495057;
+  border: none;
+  padding-top: 25px;
+}
+
+div#example_info{
+  color: #fff;
+}
+
+label{
+  color: #fff;
+}
+
+div#example_paginate a.page-link {
+  background-color: #495057;
+  border-color: #95d5b2;
+}
+
+div#example_paginate a.page-link:hover {
+  color: #43aa8b !important;
+}
+
+a.page-link {
+  color: #fff !important;
+}

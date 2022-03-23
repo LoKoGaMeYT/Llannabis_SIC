@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administrador</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../css/datepicker3.css" rel="stylesheet">
+	<link href="../css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/styleAtencionCliente.css">
+	<link rel="stylesheet" href="../js/bootstrap.min.js">
+	
+	
+	<!--Custom Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- Menu superior ------------------------------------------------------------------->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Llannabis</span>S.I.C</a>
+
+				<!-- Botones derecha --------------------------------------------------------->
+
+				<ul class="navbar-right">
+									
+					<a class="dropdown"  href="#"> <em class="fa fa-home"></em>
+          			</a>
+          		         		
+          			<a class="dropdown" data-toggle="dropdown" href="#"><em class="fa fa-power-off"></em>
+          			</a> 
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- menu eziquierda ----------------------------------------------------------------------------->
+
+	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+		<div class="profile-sidebar">
+			<div class="profile-userpic">
+				<img src="img/icon usuario.png" class="img-responsive" alt="">
+			</div>
+
+<!-- Usuario activo en el dash ------------------------------------------------------->
+			<div class="profile-usertitle">
+				<div class="profile-usertitle-name">Administrador</div>
+				<div class="profile-usertitle-status"><span class="indicator label-success"></span>Juan Gonzales</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+<!-- Botones del dashboard --------------------------------------------------------------->
+
+		<div class="divider"></div>
+		<ul class="nav menu">
+			<li><a href="indexadmin.html"><em class="fa fa-dashboard">&nbsp;</em> Inicio</a></li>
+			<h3>Pedidos Y Ventas</h3>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar stock del inventario</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/ConsultarPedidos.html"><em class="fa fa-search">&nbsp;</em> Consultar pedidos</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-sellcast">&nbsp;</em> Registrar venta</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar ventas</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Lista de espera</a></li>
+
+			<h3>Inventario</h3>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Crear producto</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Crear insumos</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar inventario</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Registrar entradas</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Registrar salidas</a></li>
+
+			<h3>Producción</h3>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar insumos</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Crear planta</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar plantas</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar productos</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Registrar novedades</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar novedades</a></li>
+
+			<h3>Atencion al cliente</h3>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Revisar PQRS</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Consultar calificaciones</a></li>
+
+			<h3>Reportes</h3>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Pedidos</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Ventas</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Inventarios</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Produccion</a></li>
+			<li><a href="Tablas/Pedidos_Ventas/consultarstock.html"><em class="fa fa-search">&nbsp;</em> Atencion al cliente</a></li>
+			
+		</ul>
+	</div>
+
+	<!--manu derecha------------------------------------------------------------------------->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header"></h1>
+			</div>
+		
+<!------- INFOMRACION DE LOS FORMULARIOS poniendo todo lo q esta dentro de la etiqueta <form> -------------------->
+	<form action="../dashboard/Error_500Dash.html">
+
+
+	<div class="boton">
+		<h1>Responder PQRS</h1>
+	
+	</div>
+
+	<div class="botonCom">
+		<label for=""></label>
+		<textarea name="Comentario" id="" cols="30" rows="10" placeholder="Escriba un comentario breve"></textarea>
+	</div>
+
+	<div class="botonS row">
+		<button type="button" class="btn"onclick="enviar()">Enviar</button>
+	</div>
+	</form>
+
+
+
+		</div><!--/.row-->
+	</div>	<!--/.main-->
+
+	
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/chart.min.js"></script>
+	<script src="../js/chart-data.js"></script>
+	<script src="../js/easypiechart.js"></script>
+	<script src="../js/easypiechart-data.js"></script>
+	<script src="../js/bootstrap-datepicker.js"></script>
+	<script src="../js/Alertas.js"></script>
+    <script src="../js/sweetalert2.all.min.js"></script>
+	<script src="../js/custom.js"></script>
+	<script>
+		window.onload = function () {
+	var chart1 = document.getElementById("line-chart").getContext("2d");
+	window.myLine = new Chart(chart1).Line(lineChartData, {
+	responsive: true,
+	scaleLineColor: "rgba(0,0,0,.2)",
+	scaleGridLineColor: "rgba(0,0,0,.05)",
+	scaleFontColor: "#c5c7cc"
+	});
+};
+	</script>
+		
+</body>
+
+</html>

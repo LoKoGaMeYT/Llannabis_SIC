@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Administrador</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../css/datepicker3.css" rel="stylesheet">
+	<link href="../css/styles.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylePedidosVentas.css">
+	<link rel="stylesheet" href="../js/bootstrap.min.js">
+	
+	
+	<!--Custom Font-->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+	
+</head>
+<body>
+	<!-- Menu superior ------------------------------------------------------------------->
+	<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#sidebar-collapse"><span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span></button>
+				<a class="navbar-brand" href="#"><span>Llannabis</span>S.I.C</a>
+
+				<!-- Botones derecha --------------------------------------------------------->
+
+				<ul class="navbar-right">
+									
+					<a class="dropdown"  href="#"> <em class="fa fa-home"></em>
+          			</a>
+          		         		
+          			<a class="dropdown" data-toggle="dropdown" href="#"><em class="fa fa-power-off"></em>
+          			</a> 
+
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- menu izquierda ----------------------------------------------------------------------------->
+
+  <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
+    <div class="profile-sidebar">
+      <div class="profile-userpic">
+        <img src="../img/icon usuario.png" class="img-responsive" alt="">
+      </div>
+
+<!-- Usuario activo en el dash ------------------------------------------------------->
+      <div class="profile-usertitle">
+        <div class="profile-usertitle-name">Fredy Barbosa</div>
+        <div class="profile-usertitle-status"><span class="indicator label-success"></span>Empleado</div>
+      </div>
+      <div class="clear"></div>
+    </div>
+<!-- Botones del dashboard --------------------------------------------------------------->
+
+    <div class="divider"></div>
+    <ul class="nav menu">
+      <li><a href="../indexPedidos_Ventas.html"><em class="fa fa-bar-chart">&nbsp;</em> Info. General</a></li>
+      <h3>Pedidos Y Ventas</h3>
+      <li><a href="../Tablas/Pedidos_Ventas/consultarstockpedven.html"><em class="fa fa-search">&nbsp;</em> Consultar stock</a></li>
+      <li><a href="../Tablas/Pedidos_Ventas/ConsultarPedidospedven.html"><em class="fa fa-search">&nbsp;</em> Consultar pedidos</a></li>
+      <li><a href="registrar_ventapedven.html"><em class="fa fa-indent">&nbsp;</em> Registrar venta</a></li>
+      <li><a href="../Tablas/Pedidos_Ventas/ConsultarVentaspedven.html"><em class="fa fa-search">&nbsp;</em> Consultar ventas</a></li>
+      <li><a href="../Tablas/Pedidos_Ventas/ListaEsperapedven.html"><em class="fa fa-pause">&nbsp;</em> Lista de espera</a></li>
+
+      
+    </ul>
+  </div>
+
+	<!--manu derecha------------------------------------------------------------------------->
+		
+	<div class="col-sm-9 col-sm-offset-3 col-lg-10 col-lg-offset-2 main">
+		
+		<div class="row">
+			<div class="col-lg-12">
+				<h1 class="page-header"></h1>
+			</div>
+		
+<!------- INFOMRACION DE LOS FORMULARIOS poniendo todo lo q esta dentro de la etiqueta <form> -------------------->
+
+	<form class="container-fluid" action="../dashboard/Error_500Dash.html">
+
+		
+			<h1>Datos de la venta</h1>
+			<div class="boton col-lg-6 col-md-6">
+			<label for="cliente"> </label>
+			<input type="text" id="cliente" required="" placeholder="-Nombre del Cliente-">
+		</div>
+			<div class="boton col-lg-6 col-md-6">
+
+			<label for="identifiacion"> </label>
+			<input type="number" id="identificacion" required="" min="0" placeholder="-Numero de identificacion-">
+		</div>
+		<div class="boton col-lg-6 col-md-6">
+
+			<label for="telefono"> </label>
+			<input type="tel" id="telefono" required="" placeholder="-Telefono-">
+
+			</div>
+		<div class="boton col-lg-6 col-md-6">
+
+			<label for="identifiacion"> </label>
+			<input type="number" id="identificacion" required="" min="0" placeholder="-ID del empleado de la venta-">
+
+		</div>
+
+
+			<h1 class="col-lg-12 col-md-12">Detalles de la venta</h1>
+
+		<div class="boton col-lg-6 col-md-6">
+
+			<label for="cantidad"> </label>
+			<input type="number" id="cantidad" required="" min="1" max="100" placeholder="-Valor unitario-">
+		</div>
+			<div class="boton col-lg-6 col-md-6">
+
+			<label for="tipo"> </label>
+	
+	
+			<select name="" id="tipoIde">
+				<option value="seleccione">Seleccione producto...</option>
+				<option value="cedula">Bolsa de cannabis</option>
+				<option value="tarjeta">Planta de cannabis</option>
+			</select>
+		</div>
+			<div class="boton col-lg-6 col-md-6">
+
+			<label for="cantidad"> </label>
+			<input type="number" id="cantidad" required="" min="1" max="100" placeholder="-Cantidad-">
+			
+			</div>
+			<div class="boton col-lg-6 col-md-6">
+
+			<label for="valorT"> </label>
+			<input type="number" id="valotT" required="" placeholder="-Total a pagar-">
+        </div>
+
+
+
+
+			<h1 class="col-lg-12 col-md-12">¿Desea generar el soporte de la venta?</h1>
+
+		<div class="boton">
+
+			<label for="soporte"></label>
+
+			<select name="" id="tipoIde">
+				<option value="seleccione">Seleccione una opcion...</option>
+				<option value="Si">Si</option>
+				<option value="No">No</option>
+			</select>
+			
+
+		</div>
+
+		<div class="botonS4">
+        
+			<button type="button" class="btn"  onclick="enviar()">Enviar</button>
+	    </div>
+			
+		</form>
+
+
+
+
+		</div><!--/.row-->
+	</div>	<!--/.main-->
+
+	
+	<script src="../js/jquery-1.11.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/chart.min.js"></script>
+	<script src="../js/chart-data.js"></script>
+	<script src="../js/easypiechart.js"></script>
+	<script src="../js/easypiechart-data.js"></script>
+	<script src="../js/bootstrap-datepicker.js"></script>
+	<script src="../js/Alertas.js"></script>
+    <script src="../js/sweetalert2.all.min.js"></script>
+	<script src="../js/custom.js"></script>
+	<script>
+		window.onload = function () {
+	var chart1 = document.getElementById("line-chart").getContext("2d");
+	window.myLine = new Chart(chart1).Line(lineChartData, {
+	responsive: true,
+	scaleLineColor: "rgba(0,0,0,.2)",
+	scaleGridLineColor: "rgba(0,0,0,.05)",
+	scaleFontColor: "#c5c7cc"
+	});
+};
+	</script>
+		
+</body>
+
+</html>
